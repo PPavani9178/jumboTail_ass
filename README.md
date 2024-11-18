@@ -33,7 +33,9 @@ npm run dev
 
 ```http
 GET /api/v1/warehouse/nearest?sellerId=123&productId=456
+
 sample Response:
+
 {
   "warehouseId": 789,
   "warehouseLocation": {
