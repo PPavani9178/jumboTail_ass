@@ -20,35 +20,6 @@ Set up environment variables: Copy the .env.example file to .env and update the 
 ## Running the Application
 To start the server in development mode:
 npm run dev
-## Project Structure
-Ecommerce-Shipping/
-├── node_modules/
-├── src/
-│   ├── config/
-│   │   └── db.config.js
-│   ├── controllers/
-│   │   ├── calculateShipping.controller.js
-│   │   ├── shipping.controller.js
-│   │   └── warehouse.controller.js
-│   ├── models/
-│   │   ├── customers.model.js
-│   │   ├── deliverySpeedCharges.model.js
-│   │   ├── sellers.model.js
-│   │   ├── transportRate.model.js
-│   │   └── warehouses.model.js
-│   ├── routes/
-│   │   └── api.routes.js
-│   ├── utils/
-│   │   └── redisClient.utils.js
-│   └── server.js
-├── .env
-├── .gitignore
-├── LICENSE
-├── README.md
-├── package-lock.json
-└── package.json
-
-
 
 ## API Endpoints
 
