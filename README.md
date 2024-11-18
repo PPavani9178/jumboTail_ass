@@ -21,7 +21,6 @@ Set up environment variables: Copy the .env.example file to .env and update the 
 To start the server in development mode:
 npm run dev
 ## Project Structure
-
 Ecommerce-Shipping/
 ├── node_modules/
 ├── src/
@@ -48,6 +47,7 @@ Ecommerce-Shipping/
 ├── README.md
 ├── package-lock.json
 └── package.json
+
 
 
 ## API Endpoints
