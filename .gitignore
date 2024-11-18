@@ -1,2 +1,37 @@
+# Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment Variables
 .env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Redis Data (if you're using a local Redis instance)
+*.rdb
+
+# MongoDB Data (if you're using a local MongoDB instance)
+*.bson
+*.wt
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and temp files
+dist/
+build/
+tmp/
+*.tmp
+
+# Other IDE and system files
+.idea/
+*.swp
